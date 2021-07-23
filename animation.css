@@ -1,7 +1,7 @@
 body {
   font-family: Alegreya Sans;
-
 }
+
 .menu {
   position: absolute;
   /*background: #cd3e3d;
@@ -11,7 +11,7 @@ body {
   background: LightBlue;
   border-radius: 10em;
   margin: auto;
-box-shadow: 0 4px 15px rgba(0,79,255,0.4);
+  box-shadow: 0 4px 15px rgba(0, 79, 255, 0.4);
   /*margin-top: 5em;
   margin-bottom: 5em;*/
   cursor: pointer;
@@ -20,8 +20,9 @@ box-shadow: 0 4px 15px rgba(0,79,255,0.4);
   width: 12em;
   height: 12em;
   left: 280px;
-  top:250px;
+  top: 250px;
 }
+
 .menu:after {
   content: "";
   position: absolute;
@@ -32,17 +33,19 @@ box-shadow: 0 4px 15px rgba(0,79,255,0.4);
   */
   width: 3em;
   height: 0.5em;
-/*  border-top: 0.6em double #fff;
+  /*  border-top: 0.6em double #fff;
   border-bottom: 0.2em solid #fff;*/
   border-top: 1.2em double #fff;
   border-bottom: 0.4em solid #fff;
   left: 75px;
-  top:80px;
+  top: 80px;
 }
+
 .menu ul {
   list-style: none;
   padding: 0;
 }
+
 .menu li {
   /*width: 5em;
   height: 1.4em;*/
@@ -68,6 +71,7 @@ box-shadow: 0 4px 15px rgba(0,79,255,0.4);
   opacity: 0;
   z-index: -1;
 }
+
 .menu:hover li {
   opacity: 1;
 }
@@ -80,39 +84,39 @@ box-shadow: 0 4px 15px rgba(0,79,255,0.4);
   display: block;
   left: 50%;
   top: -5.0em;
-
   /*border-width: 6.5em;*/
   border-width: 1.5em;
   border-radius: 0 7.5em 7.5em 0;
   border-left: 0;
   border-style: solid;
-
-  border-color: rgba(0,0,0,0.01);
-
+  border-color: rgba(0, 0, 0, 0.01);
   z-index: -1;
-
   cursor: default;
 }
+
 .menu a {
   color: white;
   text-decoration: none;
-
   line-height: 1.5em;
 }
+
 .menu a {
   color: white;
   text-decoration: none;
 }
+
 .menu ul {
   transform: rotate(180deg) translateY(-2em);
   transition: 1s all;
 }
+
 .menu:hover ul {
   transform: rotate(0deg) translateY(-1em);
 }
+
 .menu li:hover {
-/*  background: #cd3e3d;*/
-background: SteelBlue;
+  /*  background: #cd3e3d;*/
+  background: SteelBlue;
   z-index: 10;
 }
 
@@ -125,6 +129,7 @@ background: SteelBlue;
   left: 0em;
   top: -7em;
 }
+
 .menu li:nth-of-type(2) {
   transform: rotate(-45deg);
   position: absolute;
@@ -133,13 +138,15 @@ background: SteelBlue;
   /*left: 2em;
   top: -3em;*/
 }
+
 .menu li:nth-of-type(3) {
   position: absolute;
-  left:9.5em;
+  left: 9.5em;
   top: 4em;
   /*left: 3.4em;
   top: 0.3em;*/
 }
+
 .menu li:nth-of-type(4) {
   transform: rotate(45deg);
   position: absolute;
@@ -148,6 +155,7 @@ background: SteelBlue;
   /*left: 2em;
   top: 3.7em;*/
 }
+
 .menu li:nth-of-type(5) {
   transform: rotate(90deg);
   position: absolute;
@@ -157,14 +165,16 @@ background: SteelBlue;
   left: 0em;
   top: 14em;
 }
+
 .hint {
   text-align: center;
 }
-@media(max-width:1050px){
+
+@media(max-width:1050px) {
   body {
     font-family: Alegreya Sans;
-
   }
+
   .menu {
     position: absolute;
     /*background: #cd3e3d;
@@ -174,33 +184,34 @@ background: SteelBlue;
     background: LightBlue;
     border-radius: 8em;
     margin: auto;
-
     margin-top: 5em;
     margin-bottom: 5em;
     cursor: pointer;
     /*border: 1em solid #fdaead;*/
     border: none;
-    box-shadow: 0 4px 15px rgba(0,79,255,0.4);
+    box-shadow: 0 4px 15px rgba(0, 79, 255, 0.4);
     width: 9em;
     height: 9em;
     left: 150px;
-    top:70px;
+    top: 70px;
   }
+
   .menu:after {
     content: "";
     position: absolute;
-
     width: 2em;
     height: 0.3em;
     border-top: 1.2em double #fff;
     border-bottom: 0.4em solid #fff;
-    left:55px;
-    top:60px;
+    left: 55px;
+    top: 60px;
   }
+
   .menu ul {
     list-style: none;
     padding: 0;
   }
+
   .menu li {
     /*width: 5em;
     height: 1.4em;*/
@@ -226,6 +237,7 @@ background: SteelBlue;
     opacity: 0;
     z-index: -1;
   }
+
   .menu:hover li {
     opacity: 1;
   }
@@ -238,39 +250,39 @@ background: SteelBlue;
     display: block;
     left: 50%;
     top: -5.0em;
-
     /*border-width: 6.5em;*/
     border-width: 1.5em;
     border-radius: 0 7.5em 7.5em 0;
     border-left: 0;
     border-style: solid;
-
-    border-color: rgba(0,0,0,0.01);
-
+    border-color: rgba(0, 0, 0, 0.01);
     z-index: -1;
-
     cursor: default;
   }
+
   .menu a {
     color: white;
     text-decoration: none;
-
     line-height: 1.5em;
   }
+
   .menu a {
     color: white;
     text-decoration: none;
   }
+
   .menu ul {
     transform: rotate(180deg) translateY(-2em);
     transition: 1s all;
   }
+
   .menu:hover ul {
     transform: rotate(0deg) translateY(-1em);
   }
+
   .menu li:hover {
-  /*  background: #cd3e3d;*/
-  background: SteelBlue;
+    /*  background: #cd3e3d;*/
+    background: SteelBlue;
     z-index: 10;
   }
 
@@ -280,6 +292,7 @@ background: SteelBlue;
     left: -0.5em;
     top: -5.5em;
   }
+
   .menu li:nth-of-type(2) {
     transform: rotate(-45deg);
     position: absolute;
@@ -288,13 +301,15 @@ background: SteelBlue;
     /*left: 2em;
     top: -3em;*/
   }
+
   .menu li:nth-of-type(3) {
     position: absolute;
-    left:7.5em;
+    left: 7.5em;
     top: 3em;
     /*left: 3.4em;
     top: 0.3em;*/
   }
+
   .menu li:nth-of-type(4) {
     transform: rotate(45deg);
     position: absolute;
@@ -303,80 +318,67 @@ background: SteelBlue;
     /*left: 2em;
     top: 3.7em;*/
   }
+
   .menu li:nth-of-type(5) {
     transform: rotate(90deg);
     position: absolute;
     left: -0.5em;
     top: 11em;
   }
+
   .hint {
     text-align: center;
   }
 }
 
-
-@media(max-width:800px){
+@media(max-width:800px) {
   .menu {
     position: absolute;
-    /*background: #cd3e3d;
-    width: 3em;
-    height: 3em;
-    */
+    display: inline-block;
     background: LightBlue;
     border-radius: 8em;
     margin: auto;
-
     margin-top: 5em;
     margin-bottom: 5em;
     cursor: pointer;
-    /*border: 1em solid #fdaead;*/
     border: none;
-    box-shadow: 0 4px 15px rgba(0,79,255,0.4);
-    width: 5em;
-    height: 5em;
+    box-shadow: 0 4px 15px rgba(0, 79, 255, 0.4);
+    width: 3em;
+    height: 3em;
     left: 90px;
-    top:40px;
+    top: -50px;
   }
+
   .menu:after {
     content: "";
     position: absolute;
-
-    width: 2em;
-    height: 0.3em;
-    border-top: 1.2em double #fff;
-    border-bottom: 0.4em solid #fff;
-    left:55px;
-    top:60px;
+    width: 1em;
+    height: 0.1em;
+    border-top: 0.3em double #fff;
+    border-bottom: 0.1em solid #fff;
+    left: 17px;
+    top: 22px;
   }
+
   .menu ul {
     list-style: none;
     padding: 0;
   }
+
   .menu li {
-    /*width: 5em;
-    height: 1.4em;*/
-    width: 7em;
-    height: 2.2em;
-    /*padding: 0.2em;
-    margin-top: 0.2em;*/
+    width: 2em;
+    height: 0.5em;
     padding: 0.4em;
     margin-top: 0.4em;
     text-align: center;
-    /*border-top-right-radius: 0.5em;
-    border-bottom-right-radius: 0.5em;
-    */
     border-top-right-radius: 1.5em;
     border-bottom-right-radius: 1.5em;
-    /*
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
-    */
     transition: all 1s;
-    /*background: #fdaead;*/
     background: LightBlue;
     opacity: 0;
     z-index: -1;
   }
+
   .menu:hover li {
     opacity: 1;
   }
@@ -389,80 +391,81 @@ background: SteelBlue;
     display: block;
     left: 50%;
     top: -5.0em;
-
-    /*border-width: 6.5em;*/
     border-width: 1.5em;
     border-radius: 0 7.5em 7.5em 0;
     border-left: 0;
     border-style: solid;
-
-    border-color: rgba(0,0,0,0.01);
-
+    border-color: rgba(0, 0, 0, 0.01);
     z-index: -1;
-
     cursor: default;
   }
+
   .menu a {
     color: white;
     text-decoration: none;
-
     line-height: 1.5em;
   }
+
   .menu a {
     color: white;
     text-decoration: none;
   }
+
   .menu ul {
     transform: rotate(180deg) translateY(-2em);
     transition: 1s all;
   }
+
   .menu:hover ul {
     transform: rotate(0deg) translateY(-1em);
   }
+
   .menu li:hover {
-  /*  background: #cd3e3d;*/
-  background: SteelBlue;
+    background: SteelBlue;
     z-index: 10;
   }
 
   .menu li:nth-of-type(1) {
     transform: rotate(-90deg);
     position: absolute;
-    left: -0.5em;
-    top: -5.5em;
+    left: -1em;
+    top: -2em;
   }
+
+  .menu li:nth-of-type(1) a {
+    font-size: 5px;
+    text-align: center;
+  }
+
   .menu li:nth-of-type(2) {
     transform: rotate(-45deg);
     position: absolute;
-    left: 4em;
-    top: -4em;
-    /*left: 2em;
-    top: -3em;*/
+    left: 1em;
+    top: -1.3em;
   }
+
   .menu li:nth-of-type(3) {
     position: absolute;
-    left:7.5em;
-    top: 3em;
-    /*left: 3.4em;
-    top: 0.3em;*/
+    left: 1.5em;
+    top: 0.7em;
   }
+
   .menu li:nth-of-type(4) {
     transform: rotate(45deg);
     position: absolute;
-    left: 4em;
-    top: 9em;
-    /*left: 2em;
-    top: 3.7em;*/
+    left: 1em;
+    top: 2.5em;
   }
+
   .menu li:nth-of-type(5) {
     transform: rotate(90deg);
     position: absolute;
-    left: -0.5em;
-    top: 11em;
+    left: -1em;
+    top: 3.2em;
   }
+
   .hint {
     text-align: center;
   }
 }
-
 }
